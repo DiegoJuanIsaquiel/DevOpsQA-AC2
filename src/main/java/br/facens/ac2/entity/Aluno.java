@@ -29,6 +29,13 @@ public class Aluno {
         this.plano = plano;
     }
 
+    public Aluno(Long id, String nome, int cursosCompletados, String plano) {
+        this.id = id;
+    	this.nome = nome;
+        this.cursosCompletados = cursosCompletados;
+        this.plano = plano;
+    }
+
     public Long getId() {
         return id;
     }
